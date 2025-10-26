@@ -6,7 +6,7 @@
 */
 
 // variables
-let lightLevel = input.lightLevel()
+const lightLevel = input.lightLevel()
 let neopixelStrip: neopixel.Strip = null
 
 // determines the light level and lights up the corresponding neopixels
